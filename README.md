@@ -9,15 +9,16 @@ I'm a passionate developer building modern, high-performance applications with a
 
 Here are the projects I am currently working on:
 
-### 📊 [chartbuilder](https://github.com/GrecuAlexandru/chartbuilder)
+### 📊 chartbuilder (Private)
 
 **[chartbuilder.org](https://chartbuilder.org)**
+
 **AI-powered commercial chart generation tool.**
 Chartbuilder allows users to effortlessly create visualized data charts from natural language prompts or uploaded datasets (CSV/Excel). It leverages AI to interpret data and generate interactive, customizable charts. Designed as a commercial product with token based usage.
 
 - **Built on:** Next.js 16, React 19, TailwindCSS, Supabase, OpenAI API, ECharts, Framer Motion, Stripe
 
-### 📖 [aeroread](https://github.com/GrecuAlexandru/aeroread)
+### 📖 aeroread (Private)
 
 **An advanced, aesthetic e-book reader.**
 Aeroread is a powerful desktop application that supports EPUB, PDF, and Markdown formats. It features a sleek, responsive interface with smooth transitions, comprehensive reading tools, and a focus on typography and readability.
@@ -25,7 +26,7 @@ Aeroread is a powerful desktop application that supports EPUB, PDF, and Markdown
 - **Key Features:** Stay on Top mode for multitasking, Export highlights to Obsidian, built-in Pomodoro sessions for focused reading.
 - **Built on:** Tauri, React, TypeScript, Vite, AlignUI, TailwindCSS, Epub.js, PDF.js
 
-### 🔗 [divario](https://github.com/GrecuAlexandru/divario)
+### 🔗 divario (Private)
 
 **Final Year Project**
 **Decentralized platform for secure real-time collaboration.**
@@ -38,8 +39,6 @@ Divario is a platform designed for real-time document and canvas collaboration f
 ---
 
 ## 🌟 Highlighted Projects
-
-Projects that showcase specific technical achievements and complex problem-solving:
 
 ### 🤖 [silent_autopost](https://github.com/GrecuAlexandru/silent_autopost)
 
@@ -100,10 +99,6 @@ A collection of other interesting projects I've built:
 - **[WatchWhatMovie](https://github.com/GrecuAlexandru/WatchWhatMovie)**
   Browser-based tool to manage watchlists and decide what to watch.
   - _Built with:_ HTML, CSS, JavaScript
-
-- **[SelfLink](https://github.com/GrecuAlexandru/selflink)**
-  Next.js Subscription Payments Starter kit for SaaS applications.
-  - _Built with:_ Next.js, Supabase, Stripe
 
 ---
 
