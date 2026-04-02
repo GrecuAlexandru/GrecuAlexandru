@@ -20,6 +20,8 @@ Chartbuilder allows users to effortlessly create visualized data charts from nat
 
 ### 📖 aeroread (Private)
 
+**[aeroread.app](https://aeroread.app)**
+
 **An advanced, aesthetic e-book reader.**
 Aeroread is a powerful desktop application that supports EPUB, PDF, and Markdown formats. It features a sleek, responsive interface with smooth transitions, comprehensive reading tools, and a focus on typography and readability.
 
