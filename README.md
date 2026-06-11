@@ -13,10 +13,12 @@ Here are the projects I am currently working on:
 
 **[chartbuilder.org](https://chartbuilder.org)**
 
-**AI-powered commercial chart generation tool.**
-Chartbuilder allows users to effortlessly create visualized data charts from natural language prompts or uploaded datasets (CSV/Excel). It leverages AI to interpret data and generate interactive, customizable charts. Designed as a commercial product with token based usage.
+**Production-ready AI chart generation platform.**  
+Chartbuilder lets users generate, edit, and export presentation-ready charts from natural-language prompts or uploaded CSV, TSV, Excel, and JSON datasets. It combines OpenRouter-powered structured chart generation with ECharts rendering, saved chat history, reusable templates, spreadsheet-style data editing, and a visual configuration panel for chart styling.
 
-- **Built on:** Next.js 16, React 19, TailwindCSS, Supabase, OpenAI API, ECharts, Framer Motion, Stripe
+- **Key Features:** AI chart generation, dataset profiling, chart templates, saved chats, data/table editing, PNG/JPG/SVG export, usage history, support tickets, and AI credit-based paid plans.
+- **Product/Platform:** Built authenticated Supabase workflows, Polar checkout and webhook billing, rate-limited API routes, file upload hardening, prompt/content safety checks, cron jobs, health checks, observability, and billing reconciliation.
+- **Built on:** Next.js 16, React 19, TypeScript, TailwindCSS, shadcn/ui, Supabase, OpenRouter, ECharts 6, Zod, Polar, Upstash Redis, Resend, Sentry, PostHog, Vitest, Playwright
 
 ### 📖 aeroread (Private)
 
