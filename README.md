@@ -30,15 +30,17 @@ Aeroread is a powerful desktop application that supports EPUB, PDF, and Markdown
 - **Key Features:** Stay on Top mode for multitasking, Export highlights to Obsidian, built-in Pomodoro sessions for focused reading.
 - **Built on:** Tauri, React, TypeScript, Vite, AlignUI, TailwindCSS, Epub.js, PDF.js
 
-### 🔗 divario (Private)
+### 🔗 [Divario](https://github.com/GrecuAlexandru/divario)
 
-**Final Year Project**
-**Decentralized platform for secure real-time collaboration.**
-Divario is a platform designed for real-time document and canvas collaboration for teams, featuring a custom CRDT for seamless synchronization. It includes robust version control, document notarization for critical files, and **ephemeral sharing** which grants access only to specific wallet accounts.
+**Final Year / Diploma Project**  
+**Hybrid Web2/Web3 collaborative documentation workspace.**  
+Divario is a real-time workspace where teams can write documents, sketch on a shared canvas, organize work through teams and workspaces, save snapshots, and notarize important PDF versions on Ethereum Sepolia. It keeps everyday collaboration fast with WebSockets and PostgreSQL, then uses Solidity smart contracts for proof-of-existence, public verification, and temporary wallet-based external access.
 
+- **Key Features:** collaborative document editor, custom canvas/whiteboard, workspace tree, organizations and teams, RBAC, snapshots/version comparison, live notifications, blockchain notarization, public `/verify`, and MetaMask-based ephemeral sharing.
 - **Built on:**
-  - **Frontend:** Next.js, React, TailwindCSS, TypeScript
-  - **Backend:** Python (FastAPI), SQLAlchemy, PostgreSQL, Web3.py, Solidity
+  - **Frontend:** Next.js 15, React 19, TypeScript, TailwindCSS, Radix UI, Quill 2.0, HTML5 Canvas
+  - **Backend:** Python, FastAPI, SQLAlchemy, PostgreSQL, WebSockets, ReportLab
+  - **Web3:** Solidity, Web3.py, Ethereum Sepolia, SHA-256 proof-of-existence
 
 ---
 
