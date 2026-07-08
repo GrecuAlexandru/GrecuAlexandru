@@ -1,112 +1,121 @@
-# Hi there, I'm Alexandru Grecu 👋
+# Alexandru Grecu
 
-I'm a 4th year student at **Universitatea Politehnica din Bucuresti, Automatica si Calculatoare**.
-I'm a passionate developer building modern, high-performance applications with a focus on great user experience and cutting-edge technologies.
+I'm a 2026 Automatic Control and Computer Science graduate from Politehnica Bucharest. I build full-stack products, desktop apps, and automation tools, mostly around data, media, collaboration, and developer workflows.
 
----
+Right now I am most interested in product engineering: taking an idea from a rough prototype to something with auth, billing, file handling, observability, tests, and a UI people can actually use.
 
-## 🚀 Current Projects
+[LinkedIn](https://www.linkedin.com/in/alexandrugrecu27/) | [chartbuilder.org](https://chartbuilder.org) | [aeroread.app](https://aeroread.app)
 
-Here are the projects I am currently working on:
+## featured project
 
-### 📊 chartbuilder (Private)
+### [Divario](https://github.com/GrecuAlexandru/divario)
 
-**[chartbuilder.org](https://chartbuilder.org)**
+[Project paper](https://github.com/GrecuAlexandru/divario/blob/main/Divario.pdf)
 
-**Production-ready AI chart generation platform.**  
-Chartbuilder lets users generate, edit, and export presentation-ready charts from natural-language prompts or uploaded CSV, TSV, Excel, and JSON datasets. It combines OpenRouter-powered structured chart generation with ECharts rendering, saved chat history, reusable templates, spreadsheet-style data editing, and a visual configuration panel for chart styling.
+Hybrid Web2/Web3 workspace for collaborative documents, shared canvases, and PDF proof-of-existence.
 
-- **Key Features:** AI chart generation, dataset profiling, chart templates, saved chats, data/table editing, PNG/JPG/SVG export, usage history, support tickets, and AI credit-based paid plans.
-- **Product/Platform:** Built authenticated Supabase workflows, Polar checkout and webhook billing, rate-limited API routes, file upload hardening, prompt/content safety checks, cron jobs, health checks, observability, and billing reconciliation.
-- **Built on:** Next.js 16, React 19, TypeScript, TailwindCSS, shadcn/ui, Supabase, OpenRouter, ECharts 6, Zod, Polar, Upstash Redis, Resend, Sentry, PostHog, Vitest, Playwright
+Divario was my diploma project. It keeps normal collaboration fast with WebSockets and PostgreSQL, then uses Solidity contracts when a document version needs public verification.
 
-### 📖 aeroread (Private)
+What it does:
 
-**[aeroread.app](https://aeroread.app)**
+- live document editing, shared canvas, workspace tree, organizations, teams, and RBAC
+- snapshots, version comparison, PDF generation, and live notifications
+- SHA-256 PDF hash notarization on Ethereum Sepolia
+- public `/verify` page and temporary MetaMask-based external access
 
-**An advanced, aesthetic e-book reader.**
-Aeroread is a powerful desktop application that supports EPUB, PDF, and Markdown formats. It features a sleek, responsive interface with smooth transitions, comprehensive reading tools, and a focus on typography and readability.
+Stack:
 
-- **Key Features:** Stay on Top mode for multitasking, Export highlights to Obsidian, built-in Pomodoro sessions for focused reading.
-- **Built on:** Tauri, React, TypeScript, Vite, AlignUI, TailwindCSS, Epub.js, PDF.js
+- Frontend: `Next.js 15`, `React 19`, `TypeScript`, `TailwindCSS`, `Radix UI`, `Quill 2.0`, `HTML5 Canvas`
+- Backend: `Python`, `FastAPI`, `SQLAlchemy`, `PostgreSQL`, `WebSockets`, `ReportLab`
+- Web3: `Solidity`, `Web3.py`, `Ethereum Sepolia`, `SHA-256`
 
-### 🔗 [Divario](https://github.com/GrecuAlexandru/divario)
+## shipped products
 
-**Final Year / Diploma Project**  
-**Hybrid Web2/Web3 collaborative documentation workspace.**  
-Divario is a real-time workspace where teams can write documents, sketch on a shared canvas, organize work through teams and workspaces, save snapshots, and notarize important PDF versions on Ethereum Sepolia. It keeps everyday collaboration fast with WebSockets and PostgreSQL, then uses Solidity smart contracts for proof-of-existence, public verification, and temporary wallet-based external access.
+### chartbuilder
 
-- **Key Features:** collaborative document editor, custom canvas/whiteboard, workspace tree, organizations and teams, RBAC, snapshots/version comparison, live notifications, blockchain notarization, public `/verify`, and MetaMask-based ephemeral sharing.
-- **Built on:**
-  - **Frontend:** Next.js 15, React 19, TypeScript, TailwindCSS, Radix UI, Quill 2.0, HTML5 Canvas
-  - **Backend:** Python, FastAPI, SQLAlchemy, PostgreSQL, WebSockets, ReportLab
-  - **Web3:** Solidity, Web3.py, Ethereum Sepolia, SHA-256 proof-of-existence
+[chartbuilder.org](https://chartbuilder.org)  
+Private repo
 
----
+AI chart generation platform that turns prompts or uploaded datasets into editable, exportable charts. Built and shipped in 2026.
 
-## 🌟 Highlighted Projects
+What I built:
 
-### 🤖 [silent_autopost](https://github.com/GrecuAlexandru/silent_autopost)
+- natural language chart generation with OpenRouter and structured validation
+- CSV, TSV, Excel, and JSON upload flows with dataset profiling
+- ECharts rendering, chart templates, saved chats, table editing, and visual chart configuration
+- Supabase auth workflows, Polar checkout and webhooks, credit billing, usage history, and support tickets
+- rate limited API routes, upload hardening, prompt and content safety checks, cron jobs, health checks, Sentry, PostHog, Vitest, and Playwright coverage
 
-**Autonomous Video Posting Bot.**
-A Python automation script that streamlines the content creation pipeline by automatically generating short videos and posting them directly to YouTube Shorts without manual intervention.
+Stack: `Next.js 16`, `React 19`, `TypeScript`, `TailwindCSS`, `shadcn/ui`, `Supabase`, `OpenRouter`, `ECharts 6`, `Zod`, `Polar`, `Upstash Redis`, `Resend`, `Sentry`, `PostHog`, `Vitest`, `Playwright`
 
-- **Built on:** Python, Google API Client (YouTube Data API), MoviePy
+### aeroread
 
-### 🎬 [ShortGen](https://github.com/GrecuAlexandru/ShortGen)
+[aeroread.app](https://aeroread.app)  
+Private repo
 
-**Automated Short-Form Video Generation Platform.**
-A comprehensive system that automates the creation of engaging short-form videos. It fetches content (e.g., Reddit stories), generates scripts using AI, synthesizes high-quality voiceovers, and compiles the final video with captions and background visuals. It features a user-friendly GUI for easy management.
+Desktop reader for EPUB, PDF, and Markdown. The focus is simple: make long reading sessions feel good.
 
-- **Built on:** Python, Gradio (GUI), OpenAI API, ElevenLabs / Edge TTS, Whisper Timestamped, MoviePy, PyTorch
+What it includes:
 
-### 🛡️ [ml_win_logs_anomalies](https://github.com/GrecuAlexandru/ml_win_logs_anomalies)
+- clean reader UI with responsive layouts and smooth transitions
+- Stay on Top mode for reading while working in other apps
+- highlight export to Obsidian
+- built-in Pomodoro sessions for focused reading
 
-**Machine Learning Anomaly Detection.**
-**🏆 1st Place at Eestec Olympics Main Challenge Hackathon (Bitdefender)**
-An advanced machine learning project designed to detect anomalies within Windows System Logs, helping to identify potential security threats and system irregularities.
+Stack: `Tauri`, `React`, `TypeScript`, `Vite`, `AlignUI`, `TailwindCSS`, `Epub.js`, `PDF.js`
 
-- **Built on:** Python, Scikit-learn, Pandas, NumPy, Machine Learning Algorithms
+## selected public projects
 
----
+### [ml_win_logs_anomalies](https://github.com/GrecuAlexandru/ml_win_logs_anomalies)
 
-## 💻 Other Projects
+1st place at Eestec Olympics Main Challenge Hackathon, Bitdefender challenge.
 
-A collection of other interesting projects I've built:
+Machine learning project for spotting anomalies in Windows system logs.
 
-- **[CivicAlert](https://github.com/GrecuAlexandru/CivicAlert)**
-  Smart City Platform for Urban Incident Management.
-  - _Built with:_ Next.js, Firebase, ArcGIS Maps SDK
+Stack: `Python`, `Scikit-learn`, `Pandas`, `NumPy`
 
-- **[Orix Engine](https://github.com/GrecuAlexandru/orix-engine)**
-  Unfinished High-performance voxel engine with Steamworks multiplayer support.
-  - _Built with:_ C++20, OpenGL, SDL2, Steamworks SDK
+### [ShortGen](https://github.com/GrecuAlexandru/ShortGen)
 
-- **[CodeQuiz](https://github.com/GrecuAlexandru/codequiz)**
-  Web-based platform to test programming knowledge and IT concepts.
-  - _Built with:_ Python, Microsoft SQL Server 2019, Tailwind CSS
+Short video generation system that pulls source content, creates scripts, generates voiceovers, captions the result, and wraps the workflow in a Gradio interface.
 
-- **[Game Console](https://github.com/GrecuAlexandru/game_console)**
-  Custom-built gaming system with a WiFi-connected console and controller.
-  - _Built with:_ Rust Embedded, Embassy
+Stack: `Python`, `Gradio`, `OpenAI API`, `ElevenLabs`, `Edge TTS`, `Whisper Timestamped`, `MoviePy`, `PyTorch`
 
-- **[IMDB Clone](https://github.com/GrecuAlexandru/imdb_clone)**
-  Clone of the IMDB platform for managing movie info.
-  - _Built with:_ Java
+### [silent_autopost](https://github.com/GrecuAlexandru/silent_autopost)
 
-- **[TimedShop](https://github.com/GrecuAlexandru/TIMEDSHOP)**
-  Fully functional online clothing store with secure user data handling.
-  - _Built with:_ JavaScript, HTML, CSS
+Python bot that generates short videos and posts them to YouTube Shorts through the YouTube Data API.
 
-- **[TextTone](https://github.com/GrecuAlexandru/texttone)**
-  Emotional Tone Checker for text using IBM Watson Natural Language Understanding.
-  - _Built with:_ Next.js, TypeScript, Tailwind CSS, IBM Watson NLU
+Stack: `Python`, `Google API Client`, `YouTube Data API`, `MoviePy`
 
-- **[WatchWhatMovie](https://github.com/GrecuAlexandru/WatchWhatMovie)**
-  Browser-based tool to manage watchlists and decide what to watch.
-  - _Built with:_ HTML, CSS, JavaScript
+### [CivicAlert](https://github.com/GrecuAlexandru/CivicAlert)
 
----
+Smart city incident reporting platform with maps, reports, and Firebase-backed data.
 
-Let's connect!
-[LinkedIn](https://www.linkedin.com/in/alexandrugrecu27/)
+Stack: `Next.js`, `Firebase`, `ArcGIS Maps SDK`
+
+### [Orix Engine](https://github.com/GrecuAlexandru/orix-engine)
+
+Voxel engine experiment with OpenGL rendering and Steamworks multiplayer.
+
+Stack: `C++20`, `OpenGL`, `SDL2`, `Steamworks SDK`
+
+### [Game Console](https://github.com/GrecuAlexandru/game_console)
+
+Custom game console and WiFi controller built with Rust embedded tooling.
+
+Stack: `Rust Embedded`, `Embassy`
+
+## more builds
+
+- [CodeQuiz](https://github.com/GrecuAlexandru/codequiz): programming and IT quiz platform built with `Python`, `Microsoft SQL Server 2019`, and `Tailwind CSS`
+- [IMDB Clone](https://github.com/GrecuAlexandru/imdb_clone): Java app for managing movie information
+- [TimedShop](https://github.com/GrecuAlexandru/TIMEDSHOP): clothing store built with `JavaScript`, `HTML`, and `CSS`
+- [TextTone](https://github.com/GrecuAlexandru/texttone): tone checker using `Next.js`, `TypeScript`, `Tailwind CSS`, and `IBM Watson NLU`
+- [WatchWhatMovie](https://github.com/GrecuAlexandru/WatchWhatMovie): browser watchlist tool built with `HTML`, `CSS`, and `JavaScript`
+
+## toolbox
+
+`Next.js` `React` `TypeScript` `TailwindCSS` `Python` `FastAPI` `PostgreSQL` `Supabase` `Tauri` `Rust` `C++` `Solidity` `ECharts` `Playwright` `Vitest`
+
+## contact
+
+The easiest place to reach me is [LinkedIn](https://www.linkedin.com/in/alexandrugrecu27/).
