@@ -1,121 +1,86 @@
 # Alexandru Grecu
 
-I'm a 2026 Automatic Control and Computer Science graduate from Politehnica Bucharest. I build full-stack products, desktop apps, and automation tools, mostly around data, media, collaboration, and developer workflows.
+**Software Engineer | Full-Stack Development • Backend Engineering • AI**
 
-Right now I am most interested in product engineering: taking an idea from a rough prototype to something with auth, billing, file handling, observability, tests, and a UI people can actually use.
+Computer Science and Engineering graduate from **Politehnica University of Bucharest (2026)**.
 
-[LinkedIn](https://www.linkedin.com/in/alexandrugrecu27/) | [chartbuilder.org](https://chartbuilder.org) | [aeroread.app](https://aeroread.app)
+Previously a **Software Defined Vehicle Intern at MHP – A Porsche Company**, working on Java-based automotive infotainment software.
 
-## featured project
+[LinkedIn](https://www.linkedin.com/in/alexandrugrecu27/) · [Email](mailto:alexandru.grecu27@gmail.com)
 
-### [Divario](https://github.com/GrecuAlexandru/divario)
+---
 
-[Project paper](https://github.com/GrecuAlexandru/divario/blob/main/Divario.pdf)
+## Featured Projects
 
-Hybrid Web2/Web3 workspace for collaborative documents, shared canvases, and PDF proof-of-existence.
+### [Chartbuilder](https://chartbuilder.org) — AI-Powered Data Visualization SaaS
 
-Divario was my diploma project. It keeps normal collaboration fast with WebSockets and PostgreSQL, then uses Solidity contracts when a document version needs public verification.
+Full-stack SaaS that transforms natural-language requests and uploaded datasets into interactive, editable charts.
 
-What it does:
+- LLM integration with structured outputs, dataset-processing tools, and prompt-safety checks.
+- Authentication, PostgreSQL persistence, Redis rate limiting, and credit-based billing.
+- Automated testing, monitoring, and data visualization with ECharts.
 
-- live document editing, shared canvas, workspace tree, organizations, teams, and RBAC
-- snapshots, version comparison, PDF generation, and live notifications
-- SHA-256 PDF hash notarization on Ethereum Sepolia
-- public `/verify` page and temporary MetaMask-based external access
+**Stack:** `Next.js` `TypeScript` `React` `PostgreSQL` `Supabase` `Redis` `OpenRouter` `Docker`
 
-Stack:
+### [Divario](https://github.com/GrecuAlexandru/divario) — Real-Time Collaboration Platform
 
-- Frontend: `Next.js 15`, `React 19`, `TypeScript`, `TailwindCSS`, `Radix UI`, `Quill 2.0`, `HTML5 Canvas`
-- Backend: `Python`, `FastAPI`, `SQLAlchemy`, `PostgreSQL`, `WebSockets`, `ReportLab`
-- Web3: `Solidity`, `Web3.py`, `Ethereum Sepolia`, `SHA-256`
+Collaborative workspace for documents, canvases, and teams. Developed as my bachelor's thesis.
 
-## shipped products
+- Real-time document and canvas synchronization through WebSockets.
+- JWT authentication, role-based access control, organizations, and document versioning.
+- Independent document-integrity verification using SHA-256 and Solidity smart contracts on Ethereum Sepolia.
 
-### chartbuilder
+**Stack:** `Next.js` `React` `FastAPI` `Python` `PostgreSQL` `WebSockets` `Solidity`
 
-[chartbuilder.org](https://chartbuilder.org)  
-Private repo
+[Source Code](https://github.com/GrecuAlexandru/divario) · [Bachelor's Thesis](https://github.com/GrecuAlexandru/divario/blob/main/Divario.pdf)
 
-AI chart generation platform that turns prompts or uploaded datasets into editable, exportable charts. Built and shipped in 2026.
+### [Stowspace](https://stowspace.net) — Cross-Platform Content Library
 
-What I built:
+A personal knowledge and content management application spanning **Windows, Android, and browser extensions**.
 
-- natural language chart generation with OpenRouter and structured validation
-- CSV, TSV, Excel, and JSON upload flows with dataset profiling
-- ECharts rendering, chart templates, saved chats, table editing, and visual chart configuration
-- Supabase auth workflows, Polar checkout and webhooks, credit billing, usage history, and support tickets
-- rate limited API routes, upload hardening, prompt and content safety checks, cron jobs, health checks, Sentry, PostHog, Vitest, and Playwright coverage
+- Local-first content storage, organization, and search.
+- Windows desktop application using Tauri, Rust, and React.
+- Android application using React Native and Expo.
+- Browser extensions built with WXT, integrating with the desktop application.
 
-Stack: `Next.js 16`, `React 19`, `TypeScript`, `TailwindCSS`, `shadcn/ui`, `Supabase`, `OpenRouter`, `ECharts 6`, `Zod`, `Polar`, `Upstash Redis`, `Resend`, `Sentry`, `PostHog`, `Vitest`, `Playwright`
+**Stack:** `Tauri` `Rust` `React` `React Native` `TypeScript` `SQLite` `Supabase` `Cloudflare R2`
 
-### aeroread
+### [Zrima](https://getzrima.com) — Native iOS Daily Planner
 
-[aeroread.app](https://aeroread.app)  
-Private repo
+Visual daily planner built with SwiftUI, featuring timeline scheduling, recurring tasks, reminders, and native Apple integrations.
 
-Desktop reader for EPUB, PDF, and Markdown. The focus is simple: make long reading sessions feel good.
+**Stack:** `Swift` `SwiftUI` `SwiftData` `iOS`
 
-What it includes:
+### [Traceback](https://github.com/GrecuAlexandru/traceback) — AI Engineering Knowledge Platform
 
-- clean reader UI with responsive layouts and smooth transitions
-- Stay on Top mode for reading while working in other apps
-- highlight export to Obsidian
-- built-in Pomodoro sessions for focused reading
+**In development**
 
-Stack: `Tauri`, `React`, `TypeScript`, `Vite`, `AlignUI`, `TailwindCSS`, `Epub.js`, `PDF.js`
+Java-based backend platform for technical incident management and AI-assisted investigation, with planned RAG, semantic search, MCP integrations, and cloud infrastructure.
 
-## selected public projects
+**Current stack:** `Java` `Spring Boot` `PostgreSQL` `Spring Data JPA` `Flyway` `JUnit` `Testcontainers`
 
-### [ml_win_logs_anomalies](https://github.com/GrecuAlexandru/ml_win_logs_anomalies)
+[Source Code](https://github.com/GrecuAlexandru/traceback)
 
-1st place at Eestec Olympics Main Challenge Hackathon, Bitdefender challenge.
+---
 
-Machine learning project for spotting anomalies in Windows system logs.
+## Other Projects & Achievements
 
-Stack: `Python`, `Scikit-learn`, `Pandas`, `NumPy`
+- **[Windows Log Anomaly Detection](https://github.com/GrecuAlexandru/ml_win_logs_anomalies)** — 1st Place, EESTEC Olympics 2024 Main Challenge (Bitdefender). Machine-learning-based anomaly detection in Windows system logs.
+- **[AeroRead](https://aeroread.app)** — Desktop reading application for EPUB, PDF, and Markdown, built with Tauri and React.
+- **[Silent Autopost](https://github.com/GrecuAlexandru/silent_autopost)** — Python automation tool for generating and publishing YouTube Shorts.
 
-### [ShortGen](https://github.com/GrecuAlexandru/ShortGen)
+Additional achievements include **1st Place at EESTEC Olympics Side Challenge (2023)** and **4th Place at the Operating Systems Hackathon (2023)**.
 
-Short video generation system that pulls source content, creates scripts, generates voiceovers, captions the result, and wraps the workflow in a Gradio interface.
+---
 
-Stack: `Python`, `Gradio`, `OpenAI API`, `ElevenLabs`, `Edge TTS`, `Whisper Timestamped`, `MoviePy`, `PyTorch`
+## Technical Skills
 
-### [silent_autopost](https://github.com/GrecuAlexandru/silent_autopost)
+**Languages:** Python, Java, TypeScript, C++, SQL
 
-Python bot that generates short videos and posts them to YouTube Shorts through the YouTube Data API.
+**Frontend & Mobile:** React, Next.js, React Native
 
-Stack: `Python`, `Google API Client`, `YouTube Data API`, `MoviePy`
+**Backend & Data:** Spring Boot, FastAPI, PostgreSQL, Redis, SQLite, Supabase, REST APIs, WebSockets
 
-### [CivicAlert](https://github.com/GrecuAlexandru/CivicAlert)
+**AI:** LLM APIs, OpenRouter, structured outputs, prompt engineering
 
-Smart city incident reporting platform with maps, reports, and Firebase-backed data.
-
-Stack: `Next.js`, `Firebase`, `ArcGIS Maps SDK`
-
-### [Orix Engine](https://github.com/GrecuAlexandru/orix-engine)
-
-Voxel engine experiment with OpenGL rendering and Steamworks multiplayer.
-
-Stack: `C++20`, `OpenGL`, `SDL2`, `Steamworks SDK`
-
-### [Game Console](https://github.com/GrecuAlexandru/game_console)
-
-Custom game console and WiFi controller built with Rust embedded tooling.
-
-Stack: `Rust Embedded`, `Embassy`
-
-## more builds
-
-- [CodeQuiz](https://github.com/GrecuAlexandru/codequiz): programming and IT quiz platform built with `Python`, `Microsoft SQL Server 2019`, and `Tailwind CSS`
-- [IMDB Clone](https://github.com/GrecuAlexandru/imdb_clone): Java app for managing movie information
-- [TimedShop](https://github.com/GrecuAlexandru/TIMEDSHOP): clothing store built with `JavaScript`, `HTML`, and `CSS`
-- [TextTone](https://github.com/GrecuAlexandru/texttone): tone checker using `Next.js`, `TypeScript`, `Tailwind CSS`, and `IBM Watson NLU`
-- [WatchWhatMovie](https://github.com/GrecuAlexandru/WatchWhatMovie): browser watchlist tool built with `HTML`, `CSS`, and `JavaScript`
-
-## toolbox
-
-`Next.js` `React` `TypeScript` `TailwindCSS` `Python` `FastAPI` `PostgreSQL` `Supabase` `Tauri` `Rust` `C++` `Solidity` `ECharts` `Playwright` `Vitest`
-
-## contact
-
-The easiest place to reach me is [LinkedIn](https://www.linkedin.com/in/alexandrugrecu27/).
+**Infrastructure & Tools:** Docker, Linux, Git, GitHub
